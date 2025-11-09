@@ -1,4 +1,4 @@
-# Map.py
+# Map_list.py
 def map1():
     """
     Map 1 - Niveau exemple

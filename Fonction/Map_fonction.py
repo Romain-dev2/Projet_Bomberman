@@ -1,7 +1,7 @@
 #Map_fonction.py
 import sys
 import tkinter as tk
-from Fonction.map import *
+from Fonction.Map_list import *
 
 ###############################################################################
 # Section 1: Gestion des Maps

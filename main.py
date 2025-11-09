@@ -33,7 +33,7 @@ def get_initial_map(map_name):
     Returns:
         tuple: (map_matrice, tours, tour_fantome)
     """
-    from Fonction.map import all_maps
+    from Fonction.Map_list import all_maps
     maps = all_maps()
     if map_name in maps:
         map_function = maps[map_name]['function']
