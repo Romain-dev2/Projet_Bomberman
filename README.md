@@ -4,7 +4,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 🎮 Présentation
 
@@ -53,13 +52,13 @@ Chaque action consomme **1 tour** :
 #### Système de Score
 | Action | Points |
 |--------|--------|
-| Détruire un mur | +1 |
-| Récolter une amélioration | +1 |
-| Tuer un fantôme avec une bombe | +2 |
+| Détruire un mur | +10    |
+| Récolter une amélioration | +20    |
+| Tuer un fantôme avec une bombe | +100   |
 
 #### Gestion de la Santé
 - **-1 PV** : Attaque de fantôme ou bord d'explosion
-- **-Plusieurs PV** : Explosions simultanées multiples
+- **-x explosion PV** : Explosions simultanées multiples
 - **Mort instantanée** : Être au centre d'une explosion de bombe (zone rouge)
 
 #### Système de Fantômes
@@ -136,7 +135,7 @@ bomberman-game/
 
 ### Prérequis
 ```bash
-# Python 3.x requis
+# Python 3.12 requis
 python --version
 ```
 
