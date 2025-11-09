@@ -1,0 +1,8 @@
+# Ignorer le dossier IntelliJ / PyCharm
+.idea/
+
+# Ignorer les fichiers Python compilés
+/__pycache__/
+*.pyc
+
+*.log
